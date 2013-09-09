@@ -14,6 +14,12 @@
   },
   "dependencies" : {
     "buffercursor" : ">=0.0.3"
+  },
+  "devDependencies": {
+    "nodeunit" : ">=0.8.0"
+  },
+  "scripts": {
+    "test": "nodeunit test/binarypack.nodeunit.js"
   }
 }
 
